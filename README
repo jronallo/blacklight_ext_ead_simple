@@ -10,11 +10,11 @@ Installation
 
 Create a new application which installs Blacklight and blacklight_ext_ead_simple:
 
-rails ./blacklight-app -m git://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
+rails ./blacklight-app -m http://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
 
 Into an existing Rails application:
 
-rake rails:template LOCATION=git://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
+rake rails:template LOCATION=http://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
 
 
 Example
