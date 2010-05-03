@@ -10,17 +10,27 @@ Installation
 
 Create a new application which installs Blacklight and blacklight_ext_ead_simple:
 
-rails ./blacklight-app -m http://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
+rails ./blacklight-app-ead -m http://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
 
 Into an existing Rails application:
 
 rake rails:template LOCATION=http://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
 
 
-Example
+Index your own EAD XML
 =======
 
-Example goes here.
+rake solr:index:ead_dir FILE=/path/to/ead/directory/*
+
+
+Limitations / Known Issues
+=======
+
+* Does not handle every possible tag, attribute and permutation of EAD XML.
+* Can only handle numbered component parts of the collection inventory. The EAD
+  will be indexed and searchable, but the inventory will not display.
+* Lacks tests.
+
 
 
 Copyright (c) 2010 North Carolina State University, released under the MIT license
