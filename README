@@ -1,7 +1,20 @@
 blacklight_ext_ead_simple
 =========================
 
-Introduction goes here.
+This is a simplistic plugin for indexing and viewing EAD XML from within
+a Blacklight Rails application.
+
+
+Installation
+=======
+
+Create a new application which installs Blacklight and blacklight_ext_ead_simple:
+
+rails ./blacklight-app -m git://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
+
+Into an existing Rails application:
+
+rake rails:template LOCATION=git://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
 
 
 Example

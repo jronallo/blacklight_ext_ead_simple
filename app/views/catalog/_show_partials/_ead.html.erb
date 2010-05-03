@@ -1,10 +1,8 @@
+<% extra_head_content << capture do -%>
+  <%= stylesheet_link_tag 'blacklight_ext_ead_simple', :plugin => :blacklight_ext_ead_simple %>
+<% end -%>
 
-  <%# extra_head_content << capture do -%>
-    <%#= stylesheet_link_tag 'blacklight_ext_ead_simple', :plugin => :blacklight_ext_ead_simple %>
-  <%# end -%>
-
-
-<%sidebar_items << capture do -%>
+<% sidebar_items << capture do -%>
   <%= render :partial => '/catalog/_show_partials/_ead/toc' %>
   <% if @document['dao_b']  %>
     <li><span class="dao">There is digital content available for this collection guide.</span></li>
