@@ -1,0 +1,20 @@
+<% element.xpath('chronlist').each do |chronlist| %>
+  <% if !chronlist.xpath('head').first.blank? -%>
+    <h4>
+      <%= chronlist.xpath('head').first.text  %>
+    </h4>
+  <% end -%>
+  <table>
+    <% chronlist.xpath('chronitem').each do |chronitem| %>
+      <tr>
+        <td>
+          <%= chronitem.xpath('date').first.text %>
+        </td>
+        <td>
+          <%= chronitem.xpath('event').first.text %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+
+<% end %>

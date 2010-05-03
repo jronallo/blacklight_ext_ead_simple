@@ -1,0 +1,56 @@
+span.container {
+	font-size: 90%;
+	margin-left: 25px;
+}
+
+div.component_part {
+	padding: 3px;
+	margin: 2px 0;
+}
+
+h5 {
+	margin: 0px;
+}
+
+div.dao li {
+	display: inline;
+	margin: 5px 3px;
+}
+
+div.dao li a {
+	border: none;
+}
+
+div.c01{
+	margin: 5px 0;
+	background-color: #CCC;
+}
+
+div.c02 {
+	margin: 5px 0;
+	background-color: #DDD;
+}
+
+div.c03 {
+	margin: 5px 0;
+	background-color: #EEE;
+}
+
+div.c04 {
+	margin: 5px 0;
+	background-color: #FFF;
+}
+
+div.c05 {
+	margin: 5px 0;
+	border: 1px solid #CCC;
+}
+
+div#ead_toc ol {
+  margin:0;
+}
+
+div#ead_toc ol li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,14 @@
+<% cache(:action_suffix => 'toc') do %>
+<div id="ead_toc">
+<h3>Table of Contents</h3>
+  <% contents = ead_contents(@document)  %>
+  <ol>
+    <% contents.each do |link| %>
+      <li>
+        <%= link %>
+      </li>
+    <% end %>
+  </ol>
+</div>
+<% end %>
+

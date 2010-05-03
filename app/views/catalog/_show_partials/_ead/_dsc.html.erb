@@ -1,0 +1,4 @@
+<% element.xpath(start).each do |c| %>
+  <%= render :partial => 'catalog/_show_partials/_ead/component_part',
+    :locals => {:component_part => c, :start => start} %>
+<% end %>

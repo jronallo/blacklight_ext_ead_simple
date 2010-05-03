@@ -1,0 +1,10 @@
+<div class="component_part clearfix <%= start %>">
+  <%= render :partial => 'catalog/_show_partials/_ead/did',
+    :locals => {:element => component_part} %>
+
+  <%= ead_paragraphs(component_part.xpath('scopecontent').first) %>
+  <% start = ead_increment_start(start) -%>
+  <%= render :partial => 'catalog/_show_partials/_ead/dsc',
+    :locals => {:element => component_part, :start => start} %>
+</div>
+

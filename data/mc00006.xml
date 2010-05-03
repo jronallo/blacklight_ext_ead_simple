@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ead xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <eadheader findaidstatus="Completed" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+        <eadid url="http://www.lib.ncsu.edu/findingaids/mc00006">mc00006</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Guide to the George Milton Small Papers, 
+                    <date calendar="gregorian" era="ce">1950-1984</date>
+                    <num>MC 00006</num>
+                </titleproper>
+                <author>Finding aid prepared by Processed by: Dani Nation;machine-readable finding aid created by: Dani Nation</author>
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Special Collections Research Center</publisher>
+                <date>2007</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>This finding aid was produced using the Archivists' Toolkit
+                <date>2010-04-07T14:35-0400</date>
+            </creation>
+            <langusage>Finding aid written in 
+                <language langcode="eng" encodinganalog="Language">English.</language></langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="collection">
+        <did>
+            <unittitle>G. Milton Small Papers</unittitle>
+            <unitid>MC 00006</unitid>
+            <repository>
+                <corpname>Special Collections Research Center</corpname>
+            </repository>
+            <langmaterial>
+                <language langcode="eng"/>
+            </langmaterial>
+            <physdesc>
+                <extent>27.0 Linear feet</extent>
+                <extent>3 oversized flat boxes, 1 archival half box and 61 flat files</extent>
+            </physdesc>
+            <unitdate normal="1950/1984" type="inclusive">1950-1984</unitdate>
+            <abstract id="ref2" label="Abstract">The G. Milton Small Papers contain architectural drawings and photographs of projects and structures designed by architect G. Milton Small between 1950 and 1981. The collection primarily consists of architectural drawings of Small's designs, many of which were constructed on the North Carolina State University campus and elsewhere in the Raleigh, North Carolina, region. The collection also contains photographs taken by architectural photographers Joseph Molitor and Holland Wright, as well as Small's writings on computerized parking systems.</abstract>
+            <abstract id="ref3" label="Abstract">G. Milton Small Jr. (1916-1992) was a student of Mies van der Rohe and was one of the foremost modernist architects working in the southeastern United States in the later half of the 20th century. Small moved to Raleigh in 1948 and headed the architectural office of William Henley Deitrick before starting his own firm, G. Milton Small Architects, in 1949.</abstract>
+            <physloc id="ref4" label="Location">For current information on the location of these materials, please consult the Special Collections Research Center 
+                <extref ns2:type="simple" ns2:href="http://www.lib.ncsu.edu/specialcollections/research/requestinformation.html">Reference Staff</extref>.</physloc>
+            <physdesc id="ref1" label="General Physical Description note">3 oversized flat boxes, 1 archival half box and 61 flat files</physdesc>
+            <origination label="creator">
+                <persname rules="aacr" source="local">Small, G. Milton (George Milton), 1916-1992</persname>
+            </origination>
+        </did>
+        <accessrestrict id="ref5">
+            <head>Restrictions to Access</head>
+            <p>This collection is open for research; access requires at least 24 hours advance notice.</p>
+        </accessrestrict>
+        <acqinfo id="ref6">
+            <head>Acquisitions Information</head>
+            <p>Gift of Small Kane Architects PA, G. Milton Small III, President, in 2006 (Acc. No. 2006-0007 and 2006-0218)</p>
+        </acqinfo>
+        <prefercite id="ref7">
+            <head>Preferred Citation</head>
+            <p>[Identification of item], G. Milton Small Papers, MC 6, Special Collections Research Center, North Carolina State University Libraries, Raleigh, NC</p>
+        </prefercite>
+        <userestrict id="ref8">
+            <head>Copyright Notice</head>
+            <p>The nature of the NCSU Libraries' Special Collections means that copyright or other information about restrictions may be difficult or even impossible to determine despite reasonable efforts. The NCSU Libraries claims only physical ownership of most Special Collections materials.</p>
+            <p>The materials from our collections are made available for use in research, teaching, and private study, pursuant to U.S. Copyright law. The user must assume full responsibility for any use of the materials, including but not limited to, infringement of copyright and publication rights of reproduced materials. Any materials used for academic research or otherwise should be fully credited with the source.</p>
+        </userestrict>
+        <processinfo id="ref9">
+            <head>Processing Information</head>
+            <p>Processed by Dani Nation, 
+                <date calendar="gregorian" era="ce">2007 June 14 </date></p>
+            <p>Encoded by Dani Nation, 
+                <date calendar="gregorian" era="ce">2007 June 14 </date></p>
+        </processinfo>
+        <bioghist id="ref10">
+            <head>Biographical Note</head>
+            <p>G. Milton Small Jr. (1916-1992) was a student of Mies van der Rohe and was one of the foremost modernist architects working in the southeastern United States in the later half of the 20th century.</p>
+            <p>Small was born in Collinsville, Oklahoma. He graduated with a bachelors degree from the University of Oklahoma in Norman, Oklahoma, and a masters from the Illinois Institute of Technology in Chicago, Illinois, where he studied under Mies van der Rohe. In Chicago he worked for the firms Perkins and Will, and Hudgins Thompson and Ball. Small relocated to North Carolina in 1948 to head the architectural office of William Henley Deitrick, at that time Raleigh's largest architectural firm and the most committed to modernist design. Small was recommended for the position by a former professor at the University of Oklahoma, Henry Kamphoefner, who was himself relocating to Raleigh to take over the deanship of North Carolina State University's new School of Design. Small headed Deitrick's office for two years, during which time he produced several important modernist designs, principally, a new clubhouse for the Carolina Country Club, which was the subject of the 
+                <title ns2:href="" render="italic" type="simple">Life</title> magazine article, "New Country Club" (31 July 1950. p. 70).</p>
+            <p>Small started his own practice, G. Milton Small Architects, in 1949. His first design was a residence which was constructed in 1950 for Raleigh businessman Robert I. Rothstein.</p>
+            <p>Small was married to June Volck (1916- ) of Ocean City, New Jersey. The couple had two children: a son, George Milton Small III, and a daughter, June Marie Small.</p>
+        </bioghist>
+        <scopecontent id="ref11">
+            <head>Scope and Content Note</head>
+            <p>The George Milton Small papers primarily consists of 
+                <subject>architectural drawings</subject> of Small's designs, many of which were constructed in 
+                <geogname>Raleigh, North Carolina</geogname>, between 1950 and 1980. The collection also contains photographs taken by 
+                <subject>architectural photographers</subject>
+                <persname>Joseph Molitor</persname> and 
+                <persname>Holland Wright</persname> as well as Small's writings on 
+                <subject>computerized parking systems</subject>.</p>
+        </scopecontent>
+        <arrangement id="ref12">
+            <head>Organization of the Collection</head>
+            <p>The collection is organized into three series: 
+                <list type="simple">
+                    <item>MC 00006 Series 1. Photographs</item>
+                    <item>MC 00006 Series 2. Drawings</item>
+                    <item>MC 00006 Series 3.Writings</item>
+                </list>. The series are organized by project or structure.</p>
+        </arrangement>
+        <relatedmaterial id="ref13">
+            <head>Related Material</head>
+            <list type="ordered">
+                <item>
+                    <extref ns2:type="simple" ns2:href="http://www.columbia.edu/cu/lweb/indiv/avery/da/molitor.html">Joseph Molitor Photograph Collection, Avery Architectural and Fine Arts Library, Columbia University</extref></item>
+                <item>
+                    <extref ns2:type="simple" ns2:href="http://www.lib.ncsu.edu/findingaids/mc00138">Wheless Family Papers (MC 138)</extref></item>
+                <item>
+                    <extref ns2:type="simple" ns2:href="http://www.lib.ncsu.edu/findingaids/mc00042">George Matsumoto Papers (MC 42)</extref></item>
+            </list>
+        </relatedmaterial>
+        <controlaccess>
+            <corpname rules="aacr" source="local">G. Milton Small Architects.</corpname>
+            <persname rules="aacr" source="naf">Molitor, Joseph W.</persname>
+            <corpname rules="aacr" source="naf">North Carolina State University--Buildings.</corpname>
+            <persname rules="aacr" source="local">Small, G. Milton (George Milton), 1916-1992</persname>
+            <persname rules="aacr" source="local">Wright, Holland</persname>
+            <subject source="lcsh">Architectural drawing--North Carolina</subject>
+            <genreform source="lctgm">Architectural drawings</genreform>
+            <subject source="lcsh">Architectural photography--United States</subject>
+            <subject source="lcsh">Architecture</subject>
+            <subject source="lcsh">Architecture, Modern--20th century</subject>
+            <subject source="lcsh">Architecture--Designs and plans</subject>
+            <subject source="lcsh">Architecture--United States--History--20th century</subject>
+            <subject source="lcsh">Modern movement (Architecture)--North Carolina</subject>
+            <genreform source="lctgm">Photographs</genreform>
+            <geogname source="lcnaf">Raleigh (N.C.)--Buildings, structures, etc.</geogname>
+        </controlaccess>
+        <dsc>
+            <c01 id="ref15" level="series">
+                <did>
+                    <unittitle>Photographs</unittitle>
+                    <unitid>MC 00006 Series 1</unitid>
+                    <physdesc>
+                        <extent>3.0 Linear feet</extent>
+                    </physdesc>
+                    <unitdate normal="1950/1979" type="inclusive">1950-1979</unitdate>
+                    <physdesc id="ref16" label="General Physical Description note">3 oversized flat boxes</physdesc>
+                </did>
+                <scopecontent id="ref34">
+                    <head>Scope and Contents note</head>
+                    <p>The photographs series contains mounted prints of photographs taken by architectural photographers Joseph Molitor and Holland Wright of commercial and residential buildings designed by George Milton Small. Many of the images are of the Home Life Security Building in Raleigh, North Carolina. Other structures of note include various buildings on the North Carolina State University campus, the Gregory Poole Equipment Company, and the Southeastern Radio Supply Building.</p>
+                </scopecontent>
+                <c02 id="ref17" level="file">
+                    <did>
+                        <unittitle>Raleigh Municipal Building</unittitle>
+                        <container id="cid95308" type="oversizeflatbox" label="Mixed materials">1</container>
+                    </did>
+                </c02>
+                <c02 id="ref18" level="file">
+                    <did>
+                        <unittitle>Northwestern Mutual Life Insurance Building</unittitle>
+                        <container id="cid95307" type="oversizeflatbox" label="Mixed materials">1</container>
+                    </did>
+                </c02>
+                <c02 id="ref19" level="file">
+                    <did>
+                        <unittitle>NCSU Student Supply Service Center</unittitle>
+                        <container id="cid95306" type="oversizeflatbox" label="Mixed materials">1</container>
+                    </did>
+                </c02>
+                <c02 id="ref20" level="file">
+                    <did>
+                        <unittitle>NCSU Nuclear Reactor</unittitle>
+                        <container id="cid95305" type="oversizeflatbox" label="Mixed materials">1</container>
+                    </did>
+                </c02>
+                <c02 id="ref21" level="file">
+                    <did>
+                        <unittitle>Home Security Life Building (photos 1-5)</unittitle>
+                        <container id="cid95304" type="oversizeflatbox" label="Mixed materials">1</container>
+                    </did>
+                </c02>
+                <c02 id="ref22" level="file">
+                    <did>
+                        <unittitle>Home Security Life Building (photos 6-32)</unittitle>
+                        <container id="cid95303" type="oversizeflatbox" label="Mixed materials">2</container>
+                    </did>
+                </c02>
+                <c02 id="ref23" level="file">
+                    <did>
+                        <unittitle>Unidentified interiors</unittitle>
+                        <container id="cid95302" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref24" level="file">
+                    <did>
+                        <unittitle>Southeastern Radio Supply Building</unittitle>
+                        <container id="cid95301" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref25" level="file">
+                    <did>
+                        <unittitle>Stahl Residence</unittitle>
+                        <container id="cid95300" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref26" level="file">
+                    <did>
+                        <unittitle>Yancey Insurance Building</unittitle>
+                        <container id="cid95299" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref27" level="file">
+                    <did>
+                        <unittitle>Rothstein Residence</unittitle>
+                        <container id="cid95298" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref28" level="file">
+                    <did>
+                        <unittitle>Wade Lewis Residence</unittitle>
+                        <container id="cid95297" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref29" level="file">
+                    <did>
+                        <unittitle>Manning Residence</unittitle>
+                        <container id="cid95296" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref30" level="file">
+                    <did>
+                        <unittitle>St. Stephens Church (Raleigh, North Carolina)</unittitle>
+                        <container id="cid95295" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref31" level="file">
+                    <did>
+                        <unittitle>Atlantic Christian College</unittitle>
+                        <container id="cid95294" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref32" level="file">
+                    <did>
+                        <unittitle>Gregory Poole Equipment Building</unittitle>
+                        <container id="cid95293" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+                <c02 id="ref33" level="file">
+                    <did>
+                        <unittitle>Photocopied index of photographs and corresponding buildings</unittitle>
+                        <container id="cid95292" type="oversizeflatbox" label="Mixed materials">3</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01 id="ref35" level="series">
+                <did>
+                    <unittitle>Drawings</unittitle>
+                    <unitid>MC 00006 Series 2</unitid>
+                    <physdesc>
+                        <extent>24.0 Linear feet</extent>
+                    </physdesc>
+                    <unitdate normal="1950/1979" type="inclusive">1950-1979</unitdate>
+                    <physdesc id="ref36" label="General Physical Description note">61 flat files</physdesc>
+                </did>
+                <scopecontent id="ref98">
+                    <head>Scope and Contents note</head>
+                    <p>The drawings series contains architectural drawings, drafts, and renderings of various buildings designed by George Milton Small and his firm, G. Milton Small and Associates. Included in the series are buildings on North Carolina State University campus, Duke University campus and the University of North Carolina at Chapel Hill campus. In addition there are several commercial office structures, Raleigh city government buildings, and many residences.</p>
+                </scopecontent>
+                <c02 id="ref37" level="file">
+                    <did>
+                        <unittitle>University of North Carolina at Chapel Hill Cafeteria and Service Building</unittitle>
+                        <container id="cid95291" type="flatfile" label="Mixed materials">1</container>
+                        <unitdate>1964-1966</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref38" level="file">
+                    <did>
+                        <unittitle>Duke University Primate Facility</unittitle>
+                        <container id="cid95290" type="flatfile" label="Mixed materials">2</container>
+                        <unitdate>1966</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref39" level="file">
+                    <did>
+                        <unittitle>Branch Bank Building</unittitle>
+                        <container id="cid95289" type="flatfile" label="Mixed materials">3</container>
+                        <unitdate>1962-1973</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref40" level="file">
+                    <did>
+                        <unittitle>G. Milton Small Residence</unittitle>
+                        <container id="cid95288" type="flatfile" label="Mixed materials">4</container>
+                        <unitdate>1951-1961</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref41" level="file">
+                    <did>
+                        <unittitle>Office of G. Milton Small Architects</unittitle>
+                        <container id="cid95287" type="flatfile" label="Mixed materials">5</container>
+                        <unitdate>1965</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref42" level="file">
+                    <did>
+                        <unittitle>Computer Parking Machine</unittitle>
+                        <container id="cid95286" type="flatfile" label="Mixed materials">6</container>
+                        <unitdate>1979-1981</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref43" level="file">
+                    <did>
+                        <unittitle>Renderings and Drafts - various buildings</unittitle>
+                        <container id="cid95285" type="flatfile" label="Mixed materials">7</container>
+                        <unitdate>1951-1980</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref44" level="file">
+                    <did>
+                        <unittitle>NCSU Nuclear Reactor</unittitle>
+                        <container id="cid95284" type="flatfile" label="Mixed materials">8</container>
+                        <unitdate>1951-1953</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref45" level="file">
+                    <did>
+                        <unittitle>NCSU Student Center (1 of 2)</unittitle>
+                        <container id="cid95283" type="flatfile" label="Mixed materials">9</container>
+                        <unitdate>1959-1972</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref46" level="file">
+                    <did>
+                        <unittitle>NCSU Student Center (2 of 2)</unittitle>
+                        <container id="cid95282" type="flatfile" label="Mixed materials">10</container>
+                        <unitdate>1959-1972</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref47" level="file">
+                    <did>
+                        <unittitle>Fixtures of NCSU Student Supply</unittitle>
+                        <container id="cid95281" type="flatfile" label="Mixed materials">11</container>
+                        <unitdate>1959-1972</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref48" level="file">
+                    <did>
+                        <unittitle>Medical Society of the State of North Carolina</unittitle>
+                        <container id="cid95280" type="flatfile" label="Mixed materials">12</container>
+                        <unitdate>1972</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref49" level="file">
+                    <did>
+                        <unittitle>Chapel for Mount Olive College</unittitle>
+                        <container id="cid95279" type="flatfile" label="Mixed materials">13</container>
+                        <unitdate>1973</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref50" level="file">
+                    <did>
+                        <unittitle>Mount Olive Junior College - various buildings</unittitle>
+                        <container id="cid95278" type="flatfile" label="Mixed materials">14</container>
+                        <unitdate>1964-1969</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref51" level="file">
+                    <did>
+                        <unittitle>IBM Branch Office Greensboro, NC</unittitle>
+                        <container id="cid95277" type="flatfile" label="Mixed materials">15</container>
+                        <unitdate>1966-1967</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref52" level="file">
+                    <did>
+                        <unittitle>Home Security Life Insurance Building</unittitle>
+                        <container id="cid95276" type="flatfile" label="Mixed materials">16</container>
+                        <unitdate>1958-1961</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref53" level="file">
+                    <did>
+                        <unittitle>IBM Engineering Facility</unittitle>
+                        <container id="cid95275" type="flatfile" label="Mixed materials">17</container>
+                        <unitdate>1965</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref54" level="file">
+                    <did>
+                        <unittitle>Raleigh, North Carolina, Municipal Building</unittitle>
+                        <container id="cid95274" type="flatfile" label="Mixed materials">18</container>
+                        <unitdate>1959-1960</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref55" level="file">
+                    <did>
+                        <unittitle>NCSU Student Service Center</unittitle>
+                        <container id="cid95273" type="flatfile" label="Mixed materials">19</container>
+                        <unitdate>1958-1959</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref56" level="file">
+                    <did>
+                        <unittitle>Alterations to William Neal Reynolds Coliseum</unittitle>
+                        <container id="cid95272" type="flatfile" label="Mixed materials">20</container>
+                        <unitdate>1968-1971</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref57" level="file">
+                    <did>
+                        <unittitle>Additions and Fixtures NCSU Student Supply Store</unittitle>
+                        <container id="cid95271" type="flatfile" label="Mixed materials">21</container>
+                        <unitdate>1970-1972</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref58" level="file">
+                    <did>
+                        <unittitle>E. C. Brooks Elementary School Raleigh, NC</unittitle>
+                        <container id="cid95270" type="flatfile" label="Mixed materials">22</container>
+                        <unitdate>1964</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref59" level="file">
+                    <did>
+                        <unittitle>East Branch Library New Bern Ave, Raleigh</unittitle>
+                        <container id="cid95269" type="flatfile" label="Mixed materials">23</container>
+                        <unitdate>1966</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref60" level="file">
+                    <did>
+                        <unittitle>Elementary School in North Hills - Raleigh, NC</unittitle>
+                        <container id="cid95268" type="flatfile" label="Mixed materials">24</container>
+                        <unitdate>1961-1971</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref61" level="file">
+                    <did>
+                        <unittitle>Branch Bank Floor Details and Revisions</unittitle>
+                        <container id="cid95267" type="flatfile" label="Mixed materials">25</container>
+                        <unitdate>1963-1965</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref62" level="file">
+                    <did>
+                        <unittitle>Sanctuary - Our Saviour Lutheran Church</unittitle>
+                        <container id="cid95266" type="flatfile" label="Mixed materials">26</container>
+                        <unitdate>1963-1964</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref63" level="file">
+                    <did>
+                        <unittitle>NCSU Forestry School Development</unittitle>
+                        <container id="cid95265" type="flatfile" label="Mixed materials">27</container>
+                        <unitdate>1971</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref64" level="file">
+                    <did>
+                        <unittitle>Carter Stadium NCSU</unittitle>
+                        <container id="cid95264" type="flatfile" label="Mixed materials">28</container>
+                        <unitdate>1965</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref65" level="file">
+                    <did>
+                        <unittitle>NCSU Fraternity Housing (1 of 2)</unittitle>
+                        <container id="cid95263" type="flatfile" label="Mixed materials">29</container>
+                        <unitdate>1961-1962</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref66" level="file">
+                    <did>
+                        <unittitle>NCSU Fraternity Housing (2 of 2)</unittitle>
+                        <container id="cid95262" type="flatfile" label="Mixed materials">30</container>
+                        <unitdate>1961-1962</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref67" level="file">
+                    <did>
+                        <unittitle>Renovation of NCSU Fraternity Housing</unittitle>
+                        <container id="cid95261" type="flatfile" label="Mixed materials">31</container>
+                        <unitdate>1987-1988</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref68" level="file">
+                    <did>
+                        <unittitle>Carter Stadium Women's Toilet Facility Addition</unittitle>
+                        <container id="cid95260" type="flatfile" label="Mixed materials">32</container>
+                        <unitdate>1976-1977</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref69" level="file">
+                    <did>
+                        <unittitle>Gregory Poole Equipment Company</unittitle>
+                        <container id="cid95259" type="flatfile" label="Mixed materials">33</container>
+                        <unitdate>1965-1975</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref70" level="file">
+                    <did>
+                        <unittitle>Sir Walter Raleigh Chevrolet</unittitle>
+                        <container id="cid95258" type="flatfile" label="Mixed materials">34</container>
+                        <unitdate>1966-1974</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref71" level="file">
+                    <did>
+                        <unittitle>Northwestern Mutual Insurance</unittitle>
+                        <container id="cid95257" type="flatfile" label="Mixed materials">35</container>
+                        <unitdate>1961-1967</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref72" level="file">
+                    <did>
+                        <unittitle>Unigard Insurance Group</unittitle>
+                        <container id="cid95256" type="flatfile" label="Mixed materials">36</container>
+                        <unitdate>1970-1971</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref73" level="file">
+                    <did>
+                        <unittitle>National Headquarters American Association of Textile Chemists and Colorists</unittitle>
+                        <container id="cid95255" type="flatfile" label="Mixed materials">37</container>
+                        <unitdate>1963-1973</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref74" level="file">
+                    <did>
+                        <unittitle>Saint Stephens Episcopal Church - Durham, NC</unittitle>
+                        <container id="cid95254" type="flatfile" label="Mixed materials">38</container>
+                        <unitdate>1961-1978</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref75" level="file">
+                    <did>
+                        <unittitle>Rothstein Residence</unittitle>
+                        <container id="cid95253" type="flatfile" label="Mixed materials">39</container>
+                        <unitdate>1950-1958</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref76" level="file">
+                    <did>
+                        <unittitle>Dr. and Mrs. K. L. Johnson Residence</unittitle>
+                        <container id="cid95252" type="flatfile" label="Mixed materials">40</container>
+                        <unitdate>1962</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref77" level="file">
+                    <did>
+                        <unittitle>Leonard Edwards Residence, Goldsboro, North Carolina</unittitle>
+                        <container id="cid95251" type="flatfile" label="Mixed materials">41</container>
+                        <unitdate>1963-1964</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref78" level="file">
+                    <did>
+                        <unittitle>Frank Anderson Residence</unittitle>
+                        <container id="cid95250" type="flatfile" label="Mixed materials">42</container>
+                        <unitdate>1961</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref79" level="file">
+                    <did>
+                        <unittitle>Glen Bowers Residence</unittitle>
+                        <container id="cid95249" type="flatfile" label="Mixed materials">43</container>
+                        <unitdate>1958</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref80" level="file">
+                    <did>
+                        <unittitle>P. J. McElrath Residence</unittitle>
+                        <container id="cid95248" type="flatfile" label="Mixed materials">44</container>
+                        <unitdate>1960-1966</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref81" level="file">
+                    <did>
+                        <unittitle>Gregory Poole Residence</unittitle>
+                        <container id="cid95247" type="flatfile" label="Mixed materials">45</container>
+                        <unitdate>1957</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref82" level="file">
+                    <did>
+                        <unittitle>E. C. Glover III Residence</unittitle>
+                        <container id="cid95246" type="flatfile" label="Mixed materials">46</container>
+                        <unitdate>1962-1964</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref83" level="file">
+                    <did>
+                        <unittitle>Edwin Friedberg Residence</unittitle>
+                        <container id="cid95245" type="flatfile" label="Mixed materials">47</container>
+                        <unitdate>1956</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref84" level="file">
+                    <did>
+                        <unittitle>Howard Manning Residence</unittitle>
+                        <container id="cid95244" type="flatfile" label="Mixed materials">48</container>
+                        <unitdate>1952-1958</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref85" level="file">
+                    <did>
+                        <unittitle>Norval Neil Luxon Residence, Chapel Hill, North Carolina</unittitle>
+                        <container id="cid95243" type="flatfile" label="Mixed materials">49</container>
+                        <unitdate>1954</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref86" level="file">
+                    <did>
+                        <unittitle>W. C. Lewis Residence</unittitle>
+                        <container id="cid95242" type="flatfile" label="Mixed materials">50</container>
+                        <unitdate>1953</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref87" level="file">
+                    <did>
+                        <unittitle>Thomas Wheless Residence, Louisburg, North Carolina</unittitle>
+                        <container id="cid95241" type="flatfile" label="Mixed materials">51</container>
+                        <unitdate>1954</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref88" level="file">
+                    <did>
+                        <unittitle>Frank Walser Residence</unittitle>
+                        <container id="cid95240" type="flatfile" label="Mixed materials">52</container>
+                        <unitdate>1952</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref89" level="file">
+                    <did>
+                        <unittitle>Paul O. Stahl Residence</unittitle>
+                        <container id="cid95239" type="flatfile" label="Mixed materials">53</container>
+                        <unitdate>1955</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref90" level="file">
+                    <did>
+                        <unittitle>B. W. Smith Residence</unittitle>
+                        <container id="cid95238" type="flatfile" label="Mixed materials">54</container>
+                        <unitdate>1951</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref91" level="file">
+                    <did>
+                        <unittitle>Lillian B. Allen Residence</unittitle>
+                        <container id="cid95237" type="flatfile" label="Mixed materials">55</container>
+                        <unitdate>1950</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref92" level="file">
+                    <did>
+                        <unittitle>Donald B. and Marian R. Anderson Residence</unittitle>
+                        <container id="cid95236" type="flatfile" label="Mixed materials">56</container>
+                        <unitdate>1950</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref93" level="file">
+                    <did>
+                        <unittitle>H. Palmer Edwards Residence</unittitle>
+                        <container id="cid95235" type="flatfile" label="Mixed materials">57</container>
+                        <unitdate>1957-1958</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref94" level="file">
+                    <did>
+                        <unittitle>Apartments for S. Stanley Young</unittitle>
+                        <container id="cid95234" type="flatfile" label="Mixed materials">58</container>
+                        <unitdate>1971</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref95" level="file">
+                    <did>
+                        <unittitle>House for Celotex Corporation</unittitle>
+                        <container id="cid95233" type="flatfile" label="Mixed materials">59</container>
+                        <unitdate>1955</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref96" level="file">
+                    <did>
+                        <unittitle>North Hills Office Center</unittitle>
+                        <container id="cid95232" type="flatfile" label="Mixed materials">60</container>
+                        <unitdate>1968</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref97" level="file">
+                    <did>
+                        <unittitle>Globe Ind.</unittitle>
+                        <container id="cid95231" type="flatfile" label="Mixed materials">61</container>
+                        <unitdate>1971-1972</unitdate>
+                    </did>
+                </c02>
+            </c01>
+            <c01 id="ref99" level="series">
+                <did>
+                    <unittitle>Writings</unittitle>
+                    <unitid>MC 00006 Series 3</unitid>
+                    <physdesc>
+                        <extent>0.25 Linear feet</extent>
+                    </physdesc>
+                    <unitdate normal="1979/1984" type="inclusive">1979 - 1984</unitdate>
+                    <physdesc id="ref100" label="General Physical Description note">1 archival half box</physdesc>
+                </did>
+                <scopecontent id="ref103">
+                    <head>Scope and Contents note</head>
+                    <p>This series consists of two volumes written by George Milton Small on the subject of computerized parking garage systems.</p>
+                </scopecontent>
+                <c02 id="ref101" level="file">
+                    <did>
+                        <unittitle>Urban Parking Systems</unittitle>
+                        <container id="cid95230" type="Box" label="Mixed materials">4</container>
+                        <container parent="cid95230" type="Folder">1</container>
+                        <unitdate>1979-1984</unitdate>
+                    </did>
+                </c02>
+                <c02 id="ref102" level="file">
+                    <did>
+                        <unittitle>Economics of the Computer Parking Machine</unittitle>
+                        <container id="cid95229" type="Box" label="Mixed materials">4</container>
+                        <container parent="cid95229" type="Folder">2</container>
+                        <unitdate>1979-1984</unitdate>
+                    </did>
+                </c02>
+            </c01>
+        </dsc>
+    </archdesc>
+</ead>

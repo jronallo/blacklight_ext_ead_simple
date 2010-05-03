@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ead xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <eadheader findaidstatus="Completed" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+        <eadid url="http://www.lib.ncsu.edu/findingaids/mc00177/">mc00177</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Preliminary Inventory to the Catherine Bishir Collection of Architectural Drawings, Photographs, and Other Materials
+                    <num>MC 00177</num>
+                </titleproper>
+                <author>Finding aid prepared by Todd Kosmerick</author>
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Special Collections Research Center</publisher>
+                <date>2009 August</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>This finding aid was produced using the Archivists' Toolkit
+                <date>2010-04-07T15:44-0400</date>
+            </creation>
+            <langusage>English</langusage>
+            <descrules>Describing Archives: A Content Standard</descrules>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="collection">
+        <did>
+            <unittitle>Catherine Bishir Collection of Architectural Drawings, Photographs, and Other Materials</unittitle>
+            <unitid>MC 00177</unitid>
+            <repository>
+                <corpname>Special Collections Research Center</corpname>
+            </repository>
+            <langmaterial>
+                <language langcode="eng"/>
+            </langmaterial>
+            <physdesc>
+                <extent>0.5 Linear feet</extent>
+                <extent>1 archival half box</extent>
+            </physdesc>
+            <unitdate normal="1975/1976" type="inclusive">1975-1976</unitdate>
+            <abstract id="ref11" label="Abstract">The collection is comprised of a floorplan (drawing), specifications, pamphlet, and photograph for a round house designed by the Rondesics Leisure Home Corporation.</abstract>
+            <abstract id="ref12" label="Abstract">Catherine Bishir's career has focused on documenting the history of North Carolina architecture. She was the senior architectural historian and architectural survey coordinator for the State Historic Preservation Office in the North Carolina Department of Cultural Resources. She has served as senior architectural historian for Preservation North Carolina and adjunct professor for NC State's School of Architecture. She is also first curator of architecture special collections for the NCSU Libraries.</abstract>
+        </did>
+        <bioghist id="ref1">
+            <head>Biographical Note</head>
+            <p>Catherine Bishir's career has focused on documenting the history of North Carolina architecture. She was the senior architectural historian and architectural survey coordinator for the State Historic Preservation Office in the North Carolina Department of Cultural Resources. She has published seminal books documenting the history of North Carolina architecture including 
+                <title render="italic">North Carolina Architecture</title> (1990, 2005). She co-authored the following: 
+                <title render="italic">A Guide to the Historic Architecture of Piedmont North Carolina</title> (2003), 
+                <title render="italic">A Guide to the Historic Architecture of Eastern North Carolina</title> (1996), 
+                <title render="italic">A Guide to the Historic Architecture of Western North Carolina</title> (1999), 
+                <title render="italic">Architects and Builders in North Carolina : A History of the Practice of Building</title> (1990). She has also published dozens of articles, presented numerous invited lectures and papers, and received funding from the North Caroliniana Society and the National Endowment for the Humanities. She has served as senior architectural historian for Preservation North Carolina and adjunct professor for NC State's School of Architecture. She is also first curator of architecture special collections for the NCSU Libraries. She has been editor in chief of the NCSU Libraries online tool NC Architects and Builders.</p>
+        </bioghist>
+        <acqinfo id="ref3">
+            <head>Acquisition Information</head>
+            <p>Gift of Catherine Bishir, 2009 (Accession 2009.0127).</p>
+        </acqinfo>
+        <scopecontent id="ref5">
+            <head>Scope and Content Note</head>
+            <p>The collection is comprised of a floorplan (drawing), specifications, pamphlet, and photograph for a round house designed by the Rondesics Leisure Home Corporation.</p>
+        </scopecontent>
+        <accessrestrict id="ref6">
+            <head>Restrictions to Access</head>
+            <p>Collection is open for research; access requires at least 24 hours advance notice.</p>
+        </accessrestrict>
+        <userestrict id="ref7">
+            <head>Copyright Notice</head>
+            <p>The nature of the NCSU Libraries' Special Collections means that copyright or other information about restrictions may be difficult or even impossible to determine despite reasonable efforts. The NCSU Libraries claims only physical ownership of most Special Collections materials.</p>
+            <p>The materials from our collections are made available for use in research, teaching, and private study, pursuant to U.S. Copyright law. The user must assume full responsibility for any use of the materials, including but not limited to, infringement of copyright and publication rights of reproduced materials. Any materials used for academic research or otherwise should be fully credited with the source.</p>
+        </userestrict>
+        <prefercite id="ref8">
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Bishir Collection of Architectural Drawings, MC 00177, Special Collections Research Center, North Carolina State University Libraries, Raleigh, NC</p>
+        </prefercite>
+        <arrangement id="ref10">
+            <head>Organization of the Collection</head>
+            <p>Materials arranged in the order received. This collection has not yet received full archival processing.</p>
+        </arrangement>
+        <relatedmaterial id="ref13">
+            <head>Related Material</head>
+            <p>
+                <list type="ordered">
+                    <item>
+                        <extref ns2:href="http://www.lib.ncsu.edu/findingaids/mc00225/">North Carolina Buildings Collection (MC 00225)</extref> </item>
+                    <item>
+                        <extref ns2:href="http://www.lib.unc.edu/mss/inv/b/Bishir,Catherine_W.html">Catherine W. Bishir Papers (UNC-Chapel Hill, Collection 4748)</extref> </item>
+                </list></p>
+        </relatedmaterial>
+        <custodhist id="ref4">
+            <head>Custodial History</head>
+            <p>Bishir acquired the Rondesics material from a now unknown source.</p>
+        </custodhist>
+        <controlaccess>
+            <persname rules="aacr" source="naf" role="Donor (dnr)">Bishir, Catherine W.</persname>
+            <subject source="lcsh">Architectural drawing--North Carolina</subject>
+            <subject source="lcsh">Architecture</subject>
+            <subject source="lcsh">Architecture--North Carolina--Designs and plans</subject>
+            <subject source="lcsh">Architecture--North Carolina--History</subject>
+            <subject source="lcsh">Buildings--Specifications--North Carolina</subject>
+        </controlaccess>
+        <dsc>
+            <c01 id="ref2" level="file">
+                <did>
+                    <unittitle>Rondesics Leisure Home Corporation materials: floorplan (drawing), specifications, pamphlet, and photograph.</unittitle>
+                    <unitid>2009.0127</unitid>
+                    <container id="cid26886001" type="halfbox" label="Mixed materials">1</container>
+                    <container parent="cid26886001" type="Folder">1</container>
+                    <unitdate normal="1975/1976" type="inclusive">1975-1976</unitdate>
+                </did>
+            </c01>
+        </dsc>
+    </archdesc>
+</ead>

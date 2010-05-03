@@ -1,0 +1,24 @@
+<% xml = ead_xml(@document) %>
+
+<% ead_xpaths.each do |xpath| %>
+  <% content = xml.xpath(xpath[1]).first %>
+  <% if content %>
+    <% link_id = content.attribute('id') || xpath[1].split('/').last  %>
+    <h3 id="<%= ead_link_id(content, xpath[1]) %>"><%= xpath[0] %></h3>
+    <% xpath_type = xpath[2] %>
+    <% if xpath_type == :p %>
+      <%= ead_paragraphs(content) %>
+    <% elsif xpath_type == :text %>
+      <p><%= content.text %></p>
+    <% elsif xpath_type == :bioghist %>
+      <%= ead_paragraphs(content) %>
+      <%= render :partial => 'catalog/_show_partials/_ead/chronlist',
+        :locals => {:element => content} %>
+    <% elsif xpath_type == :dsc %>
+      <%= render :partial => 'catalog/_show_partials/_ead/dsc',
+        :locals => {:element => content, :start => 'c01'} %>
+    <% end %>
+
+  <% end %>
+<% end %>
+
