@@ -27,9 +27,11 @@ Limitations / Known Issues
 =======
 
 * Does not handle every possible tag, attribute and permutation of EAD XML.
+* NCSU specific code remains.
 * Can only handle numbered component parts of the collection inventory. The EAD
   will be indexed and searchable, but the inventory will not display.
 * Lacks tests.
+
 
 
 
