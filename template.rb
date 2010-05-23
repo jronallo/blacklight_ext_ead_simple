@@ -5,7 +5,7 @@ end
 unless File.exists? 'vendor/plugins/blacklight'
   puts "The Blacklight Simple EAD Plugin requires that Blacklight be installed first"
   if yes?("Install Blacklight from a template ?")
-    load_template "http://github.com/projectblacklight/blacklight/raw/master/template.rb"
+    load_template "http://github.com/projectblacklight/blacklight/raw/v2.5.0/template.rb"
   else
     puts "****ERROR: The Blacklight Simple EAD Plugin requires that Blacklight be installed first"
     exit 0
