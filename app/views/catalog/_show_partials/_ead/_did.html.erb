@@ -1,21 +1,22 @@
-<% did = element.xpath('did').first -%>
-
-<h5 id="<%= ead_link_id(element, '') %>">
-  <span class="unittitle"><%= ead_text(did, 'unittitle') %></span>
-  <span class="unitdate"><%= ead_text(did, 'unitdate') %></span>
-  <span class="unitid"><%= ead_text(did, 'unitid') %></span>
+<h5>
+  <% if element.did -%>
+  <span class="unittitle"><%= element.did.unittitle %></span>
+  <span class="unitdate"><%= element.did.unitdate %></span>
+  <span class="unitid"><%= element.did.unitid %></span>
+  <% end -%>
 </h5>
 
+<span class="physdesc"><%= element.did.physdesc %></span>
 
-<span class="physdesc"><%= ead_text(did, 'physdesc') %></span>
-
-<% if !did.xpath('container').blank? -%>
-<span class="container">
-  [<% did.xpath('container').each do |container| -%>
-    <%= container.attribute('type') %>: <%= container.text %>
-  <% end -%>]
-</span>
+<% if !element.did.containers.blank? -%>
+  <% containers = [] -%>
+  <span class="container">
+    <% element.did.containers.each_with_index do |container, index| -%>
+      <% containers << [element.did.container_types[index], container].join(': ') %>
+    <% end -%>
+    [<%= containers.join(', ') %>]
+  </span>
 <% end -%>
 
-<%= dao(did) %>
+
 

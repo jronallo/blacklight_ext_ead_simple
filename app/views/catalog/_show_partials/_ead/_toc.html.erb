@@ -1,11 +1,11 @@
 <% cache(:action_suffix => 'toc') do %>
   <div id="ead_toc">
     <h3>Table of Contents</h3>
-    <% contents = ead_contents(@document)  %>
+    <%#= link_to 'Abstract', ead.archdesc.did.abstracts.first.identifier   %>
     <ol>
-      <% contents.each do |link| %>
+      <% ead.archdesc.dsc.c01s.each do |c01| %>
         <li>
-          <%= link %>
+          <%= link_to c01.did.unittitle, '#' + c01.identifier %>
         </li>
       <% end %>
     </ol>

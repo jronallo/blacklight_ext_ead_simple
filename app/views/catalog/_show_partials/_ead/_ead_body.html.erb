@@ -1,24 +1,25 @@
-<% xml = ead_xml(@document) %>
+<h2>Abstract</h2>
+<% ead.archdesc.did.abstracts.each do |abstract| -%>
+  <p><%= abstract %></p>
+<% end -%>
 
-<% ead_xpaths.each do |xpath| %>
-  <% content = xml.xpath(xpath[1]).first %>
-  <% if content %>
-    <% link_id = content.attribute('id') || xpath[1].split('/').last  %>
-    <h3 id="<%= ead_link_id(content, xpath[1]) %>"><%= xpath[0] %></h3>
-    <% xpath_type = xpath[2] %>
-    <% if xpath_type == :p %>
-      <%= ead_paragraphs(content) %>
-    <% elsif xpath_type == :text %>
-      <p><%= content.text %></p>
-    <% elsif xpath_type == :bioghist %>
-      <%= ead_paragraphs(content) %>
-      <%= render :partial => 'catalog/_show_partials/_ead/chronlist',
-        :locals => {:element => content} %>
-    <% elsif xpath_type == :dsc %>
-      <%= render :partial => 'catalog/_show_partials/_ead/dsc',
-        :locals => {:element => content, :start => 'c01'} %>
-    <% end %>
+<h2>Biography/History</h2>
+<% ead.archdesc.bioghist.ps.each do |paragraph| -%>
+  <p><%= paragraph %></p>
+<% end -%>
 
-  <% end %>
-<% end %>
+<h2>Scope and Content</h2>
+<% ead.archdesc.scopecontent.ps.each do |paragraph| -%>
+  <p><%= paragraph %></p>
+<% end -%>
+
+<h2>Arrangement</h2>
+<% ead.archdesc.arrangement.ps.each do |paragraph| -%>
+  <p><%= paragraph %></p>
+<% end -%>
+
+
+<h2>Collection Inventory</h2>
+<%= render :partial => 'catalog/_show_partials/_ead/dsc',
+        :locals => {:element => ead.archdesc.dsc, :start => 'c01'} %>
 

@@ -1,7 +1,5 @@
 module CatalogHelper
-  def ead_link_id(element, xpath)
-    element.attribute('id') || xpath.split('/').last
-  end
+  
 
   def ead_increment_start(start)
     number = start[1,5].to_i + 1
@@ -90,6 +88,11 @@ module CatalogHelper
     else
       return ''
     end
+  end
+  
+  def eadsax(doc)
+    ead_xml = doc['xml_display'].first
+    Eadsax::Ead.parse(ead_xml)
   end
   
 end
