@@ -3,10 +3,9 @@
   <p><%= abstract %></p>
 <% end -%>
 
-<h2>Biography/History</h2>
-<% ead.archdesc.bioghist.ps.each do |paragraph| -%>
-  <p><%= paragraph %></p>
-<% end -%>
+<%= render :partial => 'catalog/_show_partials/_ead/bioghist',
+      :locals => {:bioghist => ead.archdesc.bioghist} %>
+
 
 <h2>Scope and Content</h2>
 <% ead.archdesc.scopecontent.ps.each do |paragraph| -%>

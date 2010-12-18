@@ -5,13 +5,19 @@
 <% end -%>
 
 <% sidebar_items << capture do -%>
-  <%= render :partial => '/catalog/_show_partials/_ead/toc', :locals => {:ead => ead} %>
+  <%= render :partial => '/catalog/_show_partials/_ead/toc',
+    :locals => {:ead => ead} %>
   <% if @document['dao_b']  %>
     <li><span class="dao">There is digital content available for this collection guide.</span></li>
   <% end -%>
+
+  <%= render :partial => '/catalog/_show_partials/_ead/controlaccess',
+      :locals => {:controlaccess => ead.archdesc.controlaccess} if ead.archdesc.controlaccess %>
+
 <% end -%>
 
 <% cache(:action_suffix => 'ead_body') do -%>
-  <%= render :partial => 'catalog/_show_partials/_ead/ead_body', :locals => {:ead => ead} %>
+  <%= render :partial => 'catalog/_show_partials/_ead/ead_body',
+    :locals => {:ead => ead} %>
 <% end -%>
 

@@ -1,8 +1,12 @@
 <h5>
   <% if element.did -%>
-  <span class="unittitle"><%= element.did.unittitle %></span>
-  <span class="unitdate"><%= element.did.unitdate %></span>
-  <span class="unitid"><%= element.did.unitid %></span>
+    <span class="unittitle"><%= element.did.unittitle %><%= ', ' if element.did.unitdate %></span>
+    <% if element.did.unitdate -%>
+      <span class="unitdate"><%= element.did.unitdate %></span>
+    <% end -%>
+    <% if element.did.unitid -%>
+      <span class="unitid">(<%= element.did.unitid %>)</span>
+    <% end -%>
   <% end -%>
 </h5>
 
@@ -17,6 +21,4 @@
     [<%= containers.join(', ') %>]
   </span>
 <% end -%>
-
-
 
