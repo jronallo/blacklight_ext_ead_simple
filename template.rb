@@ -27,6 +27,8 @@ if env_data.scan("config.gem 'eadsax'").empty?
   gem 'eadsax'
 end
 
+rake "gems:install", :sudo => false
+
 if yes?('Index sample EADs (you must start solr first) ?')
   rake("solr:index:ead_sample_data")
 end
