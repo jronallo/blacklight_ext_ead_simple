@@ -24,7 +24,7 @@ if env_data.scan("config.gem 'nokogiri'").empty?
   rake "gems:install", :sudo => false
 end
 
-if yes?('Index sample EADs (you must start solr first) ?')
+if yes?('Index sample EADs (you must start solr first with something like "cd blacklight-app-ead/jetty && java -jar start.jar) ?')
   rake("solr:index:ead_sample_data")
 end
 
