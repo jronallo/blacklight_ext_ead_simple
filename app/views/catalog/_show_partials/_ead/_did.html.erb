@@ -1,6 +1,6 @@
 <h5>
   <% if element.did -%>
-    <span class="unittitle"><%= element.did.unittitle %><%= ', ' if element.did.unitdate %></span>
+    <span class="unittitle"><%= element.did.unittitle %><%= ', ' if element.did.unitdate and element.did.unittitle %></span>
     <% if element.did.unitdate -%>
       <span class="unitdate"><%= element.did.unitdate %></span>
     <% end -%>
