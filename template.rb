@@ -17,7 +17,7 @@ plugin_dirname = 'blacklight_ext_ead_simple'
 
 tag = nil
 
-plugin 'blacklight_ext_ead_simple', :git => 'git://github.com/jronallo/blacklight_ext_ead_simple.git'
+plugin 'blacklight_ext_ead_simple', :git => 'git://github.com/jronallo/blacklight_ext_ead_simple.git', :submodule => true
 
 if env_data.scan("config.gem 'nokogiri'").empty?
   gem 'nokogiri'
