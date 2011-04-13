@@ -21,7 +21,6 @@ plugin 'blacklight_ext_ead_simple', :git => 'git://github.com/jronallo/blackligh
 
 if env_data.scan("config.gem 'nokogiri'").empty?
   gem 'nokogiri'
-  rake "gems:install", :sudo => false
 end
 
 if env_data.scan("config.gem 'eadsax'").empty?
