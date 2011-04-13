@@ -1,0 +1,8 @@
+<h2>Biography/History</h2>
+<% bioghist.ps.each do |paragraph| -%>
+  <p><%= paragraph %></p>
+<% end -%>
+
+<%= render :partial => 'catalog/_show_partials/_ead/chronlist',
+    :locals => {:chronlist => bioghist.chronlist} if bioghist.chronlist  -%>
+

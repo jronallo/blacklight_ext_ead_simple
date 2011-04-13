@@ -9,7 +9,7 @@ unless File.exists? 'vendor/plugins/blacklight'
   else
     puts "****ERROR: The Blacklight Simple EAD Plugin requires that Blacklight be installed first"
     exit 0
-  end  
+  end
 end
 puts "\n* Blacklight Extension for Simple EAD Rails Template \n\n"
 
@@ -24,11 +24,13 @@ if env_data.scan("config.gem 'nokogiri'").empty?
   rake "gems:install", :sudo => false
 end
 
-if yes?('Index sample EADs (you must start solr first with something like "cd blacklight-app-ead/jetty && java -jar start.jar) ?')
-  rake("solr:index:ead_sample_data")
+if env_data.scan("config.gem 'eadsax'").empty?
+  gem 'eadsax'
 end
 
+rake "gems:install", :sudo => false
 
-
-
+if yes?('Index sample EADs (you must start solr first) ?')
+  rake("solr:index:ead_sample_data")
+end
 

@@ -16,6 +16,9 @@ Into an existing Rails application:
 
 rake rails:template LOCATION=http://github.com/jronallo/blacklight_ext_ead_simple/raw/master/template.rb
 
+Add the following to your config/environment.rb right under the RAILS_GEM_VERSION:
+  require File.join(File.dirname(__FILE__), '../vendor/plugins/blacklight_ext_ead_simple/bootfile.rb')
+  BlacklightExtEadSimple.boot_up
 
 Index your own EAD XML
 =======
@@ -36,3 +39,4 @@ Limitations / Known Issues
 
 
 Copyright (c) 2010 North Carolina State University, released under the MIT license
+

@@ -1,10 +1,15 @@
-<div class="component_part clearfix <%= start %>">
+<div class="component_part clearfix <%= start %>" id="<%= component_part.identifier %>">
   <%= render :partial => 'catalog/_show_partials/_ead/did',
     :locals => {:element => component_part} %>
 
-  <%= ead_paragraphs(component_part.xpath('scopecontent').first) %>
-  <% start = ead_increment_start(start) -%>
+  <% if component_part.scopecontent -%>
+    <%= component_part.scopecontent.head + ':' %>
+    <% component_part.scopecontent.ps.each do |paragraph| %>
+      <p><%= paragraph %></p>
+    <% end -%>
+  <% end -%>
+
   <%= render :partial => 'catalog/_show_partials/_ead/dsc',
-    :locals => {:element => component_part, :start => start} %>
+    :locals => {:element => component_part, :start => ead_increment_start(start)} %>
 </div>
 

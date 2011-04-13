@@ -1,4 +1,10 @@
-<% element.xpath(start).each do |c| %>
-  <%= render :partial => 'catalog/_show_partials/_ead/component_part',
+<%# element.xpath(start).each do |c| %>
+  <%#= render :partial => 'catalog/_show_partials/_ead/component_part',
     :locals => {:component_part => c, :start => start} %>
-<% end %>
+<%# end %>
+
+<% element.send( (start + 's').to_sym).each do |component_part| -%>
+  <%= render :partial => 'catalog/_show_partials/_ead/component_part',
+    :locals => {:component_part => component_part, :start => start} %>
+<% end -%>
+

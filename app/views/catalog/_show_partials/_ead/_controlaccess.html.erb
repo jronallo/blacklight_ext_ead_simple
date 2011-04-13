@@ -1,0 +1,16 @@
+<h3>Subjects</h3>
+<ul>
+  <% ['corpnames',
+  'famnames',
+  'genreforms',
+  'geognames',
+  'names',
+  'occupations',
+  'persnames',
+  'subjects'].each do |term_type| -%>
+    <% controlaccess.send(term_type).each do |term| -%>
+      <li><%= term %></li>
+    <% end -%>
+  <% end -%>
+</ul>
+
